@@ -78,8 +78,12 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2'
 
     // https://github.com/ChuckerTeam/chucker
-    debugImplementation "com.github.chuckerTeam.chucker:library:3.5.0"
-    releaseImplementation "com.github.chuckerTeam.chucker:library-no-op:3.5.0"
+    //debugImplementation "com.github.chuckerTeam.chucker:library:3.5.0"
+    //releaseImplementation "com.github.chuckerTeam.chucker:library-no-op:3.5.0"
+
+    //network logger
+    debugImplementation 'com.mocklets:pluto:1.0.7'
+    releaseImplementation'com.mocklets:pluto-no-op:1.0.7'
 
     //leak
     //debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
